@@ -1,0 +1,23 @@
+{
+  "type": "create:pressing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "gtceu"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "gtceu:americium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "gtceu:americium_plate"
+    }
+  ]
+}
