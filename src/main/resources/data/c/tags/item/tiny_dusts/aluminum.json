@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "gtceu:tiny_aluminium_dust",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:plates/silver"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:wires/silver"
+            }
+        }
+    ],
+    "type": "energizedpower:metal_press",
+    "ingredient": {
+        "tag": "c:plates/silver"
+    },
+    "output": {
+        "count": 3,
+        "tag": "c:wires/silver"
+    },
+    "pressMold": {
+        "item": "energizedpower:wire_press_mold"
+    }
+}

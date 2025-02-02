@@ -1,0 +1,29 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ingots/hsla_steel"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:plates/hsla_steel"
+            }
+        }
+    ],
+    "type": "energizedpower:compressor",
+    "ingredient": {
+        "tag": "c:ingots/hsla_steel"
+    },
+    "output": {
+        "tag": "c:plates/hsla_steel"
+    }
+}

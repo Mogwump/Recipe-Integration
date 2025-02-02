@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomeswevegone"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {"item": "biomeswevegone:purple_sand"},
+        "B": {"item": "ars_nouveau:manipulation_essence"}
+    },
+    "result": {
+        "id": "biomeswevegone:pink_sand",
+        "count": 8
+    }
+}

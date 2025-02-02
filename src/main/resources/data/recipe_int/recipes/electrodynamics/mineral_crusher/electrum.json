@@ -1,0 +1,39 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "electrodynamics"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ingots/electrum"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:plates/electrum"
+            }
+        }
+    ],
+    "type": "electrodynamics:mineral_crusher_recipe",
+    "experience": 0.10000000149011612,
+    "group": "electrodynamics",
+    "iteminputs": [
+        {
+            "count": 1,
+            "ingredient": {
+                "tag": "c:ingots/electrum"
+            }
+        }
+    ],
+    "output": {
+        "count": 1,
+        "tag": "c:plates/electrum"
+    },
+    "ticks": 200,
+    "usagepertick": 450.0
+}

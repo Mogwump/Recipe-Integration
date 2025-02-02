@@ -1,0 +1,27 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomesoplenty"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {"item": "biomesoplenty:white_sandstone"},
+        "B": {"item": "ars_nouveau:manipulation_essence"}
+    },
+    "result": {
+        "id": "biomesoplenty:orange_sandstone",
+        "count": 8
+    }
+}

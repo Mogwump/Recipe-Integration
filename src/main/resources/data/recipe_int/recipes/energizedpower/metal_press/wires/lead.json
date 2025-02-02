@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "energizedpower"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:plates/lead"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:wires/lead"
+            }
+        }
+    ],
+    "type": "energizedpower:metal_press",
+    "ingredient": {
+        "tag": "c:plates/lead"
+    },
+    "output": {
+        "count": 3,
+        "tag": "c:wires/lead"
+    },
+    "pressMold": {
+        "item": "energizedpower:wire_press_mold"
+    }
+}
