@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "evilcraft:dark_ores"
+            }
+        }
+    ],
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "evilcraft:dark_ores",
+    "highlight": "evilcraft:dark_ores"
+}

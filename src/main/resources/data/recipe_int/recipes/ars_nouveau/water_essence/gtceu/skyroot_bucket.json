@@ -1,0 +1,32 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "gtceu"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "ars_nouveau:water_essence"
+        },
+        {
+            "item": "minecraft:bucket"
+        },
+        {
+            "tag": "c:dusts/salt"
+        },
+        {
+            "tag": "c:dusts/salt"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "gtceu:salt_water_bucket"
+    }
+}
