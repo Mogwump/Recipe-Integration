@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "powah"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomeswevegone"
+        }
+    ],
+    "values": {
+        "biomeswevegone:black_ice": {
+            "amount": 48,
+            "temperature": -5
+        },
+        "biomeswevegone:borealis_ice": {
+            "amount": 48,
+            "temperature": -5
+        },
+        "biomeswevegone:packed_black_ice": {
+            "amount": 192,
+            "temperature": -8
+        },
+        "biomeswevegone:packed_borealis_ice": {
+            "amount": 192,
+            "temperature": -8
+        }
+    }
+}

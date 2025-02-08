@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "astral_dimension:stripped_luminous_log",
+            "required": false
+        },
+        {
+            "id": "astral_dimension:stripped_soggy_log",
+            "required": false
+        },
+        {
+            "id": "astral_dimension:stripped_tormented_log",
+            "required": false
+        },
+        {
+            "id": "astral_dimension:stripped_wisteria_log",
+            "required": false
+        },
+        {
+            "id": "integrateddynamics:menril_log_stripped",
+            "required": false
+        }
+    ]
+}
