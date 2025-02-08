@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "biomesoplenty:tall_white_lavender",
+            "required": false
+        }
+    ]
+}

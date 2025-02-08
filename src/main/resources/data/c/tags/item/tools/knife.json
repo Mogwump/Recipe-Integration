@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "ae2:certus_quartz_cutting_knife",
+            "required": false
+        },
+        {
+            "id": "ae2:nether_quartz_cutting_knife",
+            "required": false
+        },
+        {
+            "id": "aether:lightning_knife",
+            "required": false
+        },
+        {
+            "id": "divinerpg:jungle_knife",
+            "required": false
+        },
+        {
+            "id": "divinerpg:ocean_knife",
+            "required": false
+        },
+        {
+            "id": "divinerpg:terran_knife",
+            "required": false
+        }
+    ]
+}

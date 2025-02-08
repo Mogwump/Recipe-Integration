@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "biomesoplenty:rose",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:waterlily",
+            "required": false
+        },
+        {
+            "id": "twilightforest:thorn_rose",
+            "required": false
+        },
+        {
+            "tag": "biomeswevegone:dye/makes_red_dye",
+            "required": false
+        }
+    ]
+}

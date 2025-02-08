@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "mekanism:dust_sulfur",
+            "required": false
+        },
+        {
+            "tag": "biomeswevegone:dye/makes_yellow_dye",
+            "required": false
+        }
+    ]
+}

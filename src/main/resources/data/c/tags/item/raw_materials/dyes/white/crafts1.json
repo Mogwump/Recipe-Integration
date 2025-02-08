@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "biomesoplenty:white_lavender",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:white_petals",
+            "required": false
+        },
+        {
+            "id": "aether:white_flower",
+            "required": false
+        },
+        {
+            "tag": "biomeswevegone:dye/makes_white_dye",
+            "required": false
+        }
+    ]
+}

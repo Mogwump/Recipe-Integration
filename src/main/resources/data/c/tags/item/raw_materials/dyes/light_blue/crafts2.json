@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "biomesoplenty:blue_hydrangea",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:icy_iris",
+            "required": false
+        }
+    ]
+}
