@@ -12,14 +12,14 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
         {
-            "item": "aether:skyroot_log"
+            "item": "aether:skyroot_wood"
         }
     ],
     "result": [
         {
             "item": {
                 "count": 1,
-                "id": "aether:stripped_skyroot_log"
+                "id": "aether:stripped_skyroot_wood"
             }
         },
         {
