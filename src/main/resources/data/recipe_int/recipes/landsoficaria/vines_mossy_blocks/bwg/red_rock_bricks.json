@@ -1,0 +1,47 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "landsoficaria"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "biomeswevegone"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "mossy_red_rock_bricks",
+    "ingredients": [
+        {
+            "item": "biomeswevegone:red_rock_bricks"
+        },
+        [
+            {
+                "item": "landsoficaria:bloomy_vine"
+            },
+            {
+                "item": "landsoficaria:branchy_vine"
+            },
+            {
+                "item": "landsoficaria:brushy_vine"
+            },
+            {
+                "item": "landsoficaria:dry_vine"
+            },
+            {
+                "item": "landsoficaria:reedy_vine"
+            },
+            {
+                "item": "landsoficaria:swirly_vine"
+            },
+            {
+                "item": "landsoficaria:thorny_vine"
+            }
+        ]
+    ],
+    "result": {
+        "count": 1,
+        "id": "biomeswevegone:mossy_red_rock_bricks"
+    }
+}
