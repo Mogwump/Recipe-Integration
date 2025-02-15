@@ -1,0 +1,38 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "hostilenetworks"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "entity": "aether:blue_swet",
+    "name": {
+        "translate": "entity.aether.blue_swet",
+        "color": "#ABFFFE"
+    },
+    "display": {},
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "recipeintegration.hostilenetworks.trivia.blue_swet",
+    "fabricator_drops": [
+        {
+            "id": "aether:blue_aercloud",
+            "count": 16
+        },
+        {
+            "id": "aether:swet_ball",
+            "count": 16
+        }
+    ]
+
+}

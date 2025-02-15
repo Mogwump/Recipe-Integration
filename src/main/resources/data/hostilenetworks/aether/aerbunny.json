@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "hostilenetworks"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "entity": "aether:aerbunny",
+    "name": {
+        "translate": "entity.aether.aerbunny",
+        "color": "#ABFFFE"
+    },
+    "display": {},
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+    "trivia": "recipeintegration.hostilenetworks.trivia.aerbunny",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:string",
+            "count": 32
+        }
+    ]
+
+}

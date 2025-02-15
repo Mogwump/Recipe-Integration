@@ -1,0 +1,34 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "hostilenetworks"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "acd_nether"
+        }
+    ],
+    "entity": "acd_nether:stalker",
+    "name": {
+        "translate": "entity.acd_nether.stalker",
+        "color": "#B0EEFF"
+    },
+    "display": {},
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "hostilenetworks:nether_prediction",
+        "count": 1
+    },
+    "trivia": "recipeintegration.hostilenetworks.trivia.stalker",
+    "fabricator_drops": [
+        {
+            "id": "acd_nether:blank_totem",
+            "count": 1
+        }
+    ]
+
+}

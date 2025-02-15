@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "nethers_exoticism:kiwano_leaves",
+            "required": false
+        },
+        {
+            "id": "nethers_exoticism:ramboutan_leaves",
+            "required": false
+        }
+    ]
+}
