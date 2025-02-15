@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "gaiadimension:pyrite_ore",
+            "required": false
+        }
+    ]
+}

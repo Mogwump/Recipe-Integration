@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "gaiadimension:red_opal_ore",
+            "required": false
+        }
+    ]
+}

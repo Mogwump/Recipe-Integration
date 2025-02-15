@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "stellaris:mars_plutonium_ore",
+            "required": false
+        }
+    ]
+}

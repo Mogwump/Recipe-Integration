@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "many_more_ores_and_crafts:palladiumore",
+            "required": false
+        }
+    ]
+}

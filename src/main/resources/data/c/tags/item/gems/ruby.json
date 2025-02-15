@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "acd_nether:ruby",
+            "required": false
+        },
+        {
+            "id": "rubinated_nether:ruby",
+            "required": false
+        }
+    ]
+}

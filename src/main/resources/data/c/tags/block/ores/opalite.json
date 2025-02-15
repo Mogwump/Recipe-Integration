@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "gaiadimension:scarlet_opalite_ore",
+            "required": false
+        },
+        {
+            "id": "gaiadimension:auburn_opalite_ore",
+            "required": false
+        },
+        {
+            "id": "gaiadimension:gold_opalite_ore",
+            "required": false
+        },
+        {
+            "id": "gaiadimension:mauve_opalite_ore",
+            "required": false
+        },
+        {
+            "id": "gaiadimension:beige_opalite_ore",
+            "required": false
+        },
+        {
+            "id": "gaiadimension:ivory_opalite_ore",
+            "required": false
+        }
+    ]
+}

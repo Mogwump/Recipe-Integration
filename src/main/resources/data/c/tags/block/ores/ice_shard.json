@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "stellaris:mars_ice_shard_ore",
+            "required": false
+        },
+        {
+            "id": "stellaris:moon_ice_shard_ore",
+            "required": false
+        }
+    ]
+}

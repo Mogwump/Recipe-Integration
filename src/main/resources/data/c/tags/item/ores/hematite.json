@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "gaiadimension:hematite_ore",
+            "required": false
+        }
+    ]
+}
