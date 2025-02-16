@@ -1,0 +1,26 @@
+All Rights Reserved
+
+Copyright (c) 2025 Mogwump
+
+Permissions are hereby granted below to any person having a copy of
+this software and/or its associated files:
+
+You may use this software for its intended purpose, as a mod for Minecraft: Java Edition.
+You may include the mod in a modpack, as long as the modpack is in a format where the mod is downloaded from the modrinth website.
+You may copy this code and any related files for personal use.
+You may modify this code and any related files, but you must keep the license intact.
+You may contribute directly to the code on the github, which can be found at https://github.com/Mogwump/Recipe-Integration
+
+You may not redistribute the compiled mod or its source code without my explicit permission.
+
+You may only redistribute a derivative copy of this mod if it is either a port to a lower Minecraft version than 1.21, or if it is to a different modloader to Neoforge, such as Forge or Fabric.
+
+You must include this license in any derivative works of this project.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
