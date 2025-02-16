@@ -1,0 +1,26 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "ars_nouveau"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "exdeorum"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "item": "ars_nouveau:water_essence"
+        },
+        {
+            "item": "exdeorum:porcelain_bucket"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "exdeorum:porcelain_water_bucket"
+    }
+}

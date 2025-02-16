@@ -1,0 +1,24 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "evilcraft"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "evilcraft:bucket_eternal_water"
+        },
+        {
+            "item": "aether:skyroot_bucket"
+        }
+    ],
+    "result": {
+        "id": "aether:skyroot_water_bucket"
+    }
+}
