@@ -15,7 +15,7 @@
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:plates/titanium"
+                "tag": "c:rods/titanium"
             }
         }
     ],
@@ -24,8 +24,11 @@
     "input": {
         "tag": "c:ingots/titanium"
     },
-    "mold": "immersiveengineering:mold_plate",
+    "mold": "immersiveengineering:mold_rod",
     "result": {
-        "tag": "c:plates/titanium"
+        "basePredicate": {
+            "tag": "c:rods/titanium"
+        },
+        "count": 2
     }
 }

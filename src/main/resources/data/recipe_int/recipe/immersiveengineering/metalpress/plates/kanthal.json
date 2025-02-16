@@ -8,24 +8,24 @@
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:ingots/titanium"
+                "tag": "c:ingots/kanthal"
             }
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:plates/titanium"
+                "tag": "c:plates/kanthal"
             }
         }
     ],
     "type": "immersiveengineering:metal_press",
     "energy": 2400,
     "input": {
-        "tag": "c:ingots/titanium"
+        "tag": "c:ingots/kanthal"
     },
     "mold": "immersiveengineering:mold_plate",
     "result": {
-        "tag": "c:plates/titanium"
+        "tag": "c:plates/kanthal"
     }
 }

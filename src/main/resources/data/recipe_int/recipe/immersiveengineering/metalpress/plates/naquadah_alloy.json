@@ -8,24 +8,24 @@
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:ingots/titanium"
+                "tag": "c:ingots/naquadah_alloy"
             }
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:plates/titanium"
+                "tag": "c:plates/naquadah_alloy"
             }
         }
     ],
     "type": "immersiveengineering:metal_press",
     "energy": 2400,
     "input": {
-        "tag": "c:ingots/titanium"
+        "tag": "c:ingots/naquadah_alloy"
     },
     "mold": "immersiveengineering:mold_plate",
     "result": {
-        "tag": "c:plates/titanium"
+        "tag": "c:plates/naquadah_alloy"
     }
 }
