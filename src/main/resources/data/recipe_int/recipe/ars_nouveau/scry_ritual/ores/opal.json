@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ores/opal"
+            }
+        }
+    ],
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/opal",
+    "highlight": "c:ores/opal"
+}

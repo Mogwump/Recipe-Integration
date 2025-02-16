@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ores/gypsum"
+            }
+        }
+    ],
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/gypsum",
+    "highlight": "c:ores/gypsum"
+}

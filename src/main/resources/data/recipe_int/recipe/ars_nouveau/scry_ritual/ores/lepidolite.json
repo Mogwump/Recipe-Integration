@@ -4,11 +4,11 @@
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:ores/aluminum"
+                "tag": "c:ores/lepidolite"
             }
         }
     ],
     "type": "ars_nouveau:scry_ritual",
-    "augment": "c:ores/aluminum",
-    "highlight": "c:ores/aluminum"
+    "augment": "c:ores/lepidolite",
+    "highlight": "c:ores/lepidolite"
 }

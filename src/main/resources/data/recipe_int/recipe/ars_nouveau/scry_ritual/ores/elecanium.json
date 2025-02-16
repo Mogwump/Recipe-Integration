@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ores/elecanium"
+            }
+        }
+    ],
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/elecanium",
+    "highlight": "c:ores/elecanium"
+}

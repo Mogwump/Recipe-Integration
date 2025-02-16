@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ores/mystite"
+            }
+        }
+    ],
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/mystite",
+    "highlight": "c:ores/mystite"
+}

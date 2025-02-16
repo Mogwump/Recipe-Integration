@@ -1,0 +1,14 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ores/steel"
+            }
+        }
+    ],
+    "type": "ars_nouveau:scry_ritual",
+    "augment": "c:ores/steel",
+    "highlight": "c:ores/steel"
+}
