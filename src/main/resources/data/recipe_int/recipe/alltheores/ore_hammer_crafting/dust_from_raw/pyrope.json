@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alltheores"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:raw_materials/pyrope"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:dusts/pyrope"
+            }
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "alltheores:ore_hammers"
+        },
+        {
+            "tag": "c:raw_materials/pyrope"
+        }
+    ],
+    "result": {
+        "count": 6,
+        "tag": "c:dusts/pyrope"
+    }
+}

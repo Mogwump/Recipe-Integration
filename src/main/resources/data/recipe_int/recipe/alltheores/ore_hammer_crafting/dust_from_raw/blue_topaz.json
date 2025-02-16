@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alltheores"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:raw_materials/blue_topaz"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:dusts/blue_topaz"
+            }
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "alltheores:ore_hammers"
+        },
+        {
+            "tag": "c:raw_materials/blue_topaz"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "tag": "c:dusts/blue_topaz"
+    }
+}

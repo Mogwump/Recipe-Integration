@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alltheores"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:raw_materials/salt"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:dusts/salt"
+            }
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "alltheores:ore_hammers"
+        },
+        {
+            "tag": "c:raw_materials/salt"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "tag": "c:dusts/salt"
+    }
+}

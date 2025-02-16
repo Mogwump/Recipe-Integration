@@ -1,0 +1,36 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "alltheores"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:raw_materials/emerald"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:dusts/emerald"
+            }
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "alltheores:ore_hammers"
+        },
+        {
+            "tag": "c:raw_materials/emerald"
+        }
+    ],
+    "result": {
+        "count": 2,
+        "tag": "c:dusts/emerald"
+    }
+}
