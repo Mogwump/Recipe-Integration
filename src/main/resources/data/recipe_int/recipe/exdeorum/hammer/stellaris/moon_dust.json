@@ -1,0 +1,23 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "exdeorum"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "stellaris"
+        }
+    ],
+    "type": "exdeorum:hammer",
+    "ingredient": [
+        {
+            "item": "stellaris:moon_sand"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "stellaris:moon_stone_dust"
+    },
+    "result_amount": 1.0
+}

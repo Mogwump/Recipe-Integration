@@ -2,30 +2,35 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "immersiveengineering"
+            "modid": "alltheores"
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:ingots/titanium"
+                "tag": "c:raw_materials/pyrope"
             }
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:plates/titanium"
+                "tag": "c:dusts/pyrope"
             }
         }
     ],
-    "type": "immersiveengineering:metal_press",
-    "energy": 2400,
-    "input": {
-        "tag": "c:ingots/titanium"
-    },
-    "mold": "immersiveengineering:mold_plate",
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        {
+            "tag": "alltheores:ore_hammers"
+        },
+        {
+            "tag": "c:raw_materials/pyrope"
+        }
+    ],
     "result": {
-        "tag": "c:plates/titanium"
+        "count": 6,
+        "tag": "c:dusts/pyrope"
     }
 }

@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mysticalagriculture"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "aether"
+        },
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:water"
+        }
+    ],
+    "type": "crafting_shaped",
+    "pattern": [
+        " E ",
+        "EBE",
+        " E "
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:water_essence"
+        },
+        "B": {
+            "item": "aether:skyroot_bucket"
+        }
+    },
+    "result": {
+        "id": "aether:skyroot_water_bucket"
+    }
+}

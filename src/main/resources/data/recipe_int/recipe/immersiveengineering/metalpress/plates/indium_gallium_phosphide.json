@@ -8,24 +8,24 @@
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:ingots/titanium"
+                "tag": "c:ingots/indium_gallium_phosphide"
             }
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:plates/titanium"
+                "tag": "c:plates/indium_gallium_phosphide"
             }
         }
     ],
     "type": "immersiveengineering:metal_press",
     "energy": 2400,
     "input": {
-        "tag": "c:ingots/titanium"
+        "tag": "c:ingots/indium_gallium_phosphide"
     },
     "mold": "immersiveengineering:mold_plate",
     "result": {
-        "tag": "c:plates/titanium"
+        "tag": "c:plates/indium_gallium_phosphide"
     }
 }

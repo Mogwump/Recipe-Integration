@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mysticalagriculture"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "exdeorum"
+        },
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:fire"
+        }
+    ],
+    "type": "crafting_shaped",
+    "pattern": [
+        " E ",
+        "EBE",
+        " E "
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:fire_essence"
+        },
+        "B": {
+            "item": "exdeorum:porcelain_bucket"
+        }
+    },
+    "result": {
+        "id": "exdeorum:porcelain_lava_bucket"
+    }
+}

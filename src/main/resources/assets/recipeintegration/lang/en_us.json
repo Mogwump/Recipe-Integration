@@ -1,5 +1,5 @@
 {
-  "itemGroup.recipeintegration": "Example Mod Tab",
-  "block.recipeintegration.example_block": "Example Block",
-  "item.recipeintegration.example_item": "Example Item"
+  "recipeintegration.hostilenetworks.trivia.aerbunny": "Like a bunny, but they float.\nAnd they drop string",
+  "recipeintegration.hostilenetworks.trivia.blue_swet": "It's blue",
+  "recipeintegration.hostilenetworks.trivia.stalker": "I think something's watching me..."
 }

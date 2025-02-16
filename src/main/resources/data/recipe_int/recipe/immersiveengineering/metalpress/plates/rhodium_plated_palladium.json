@@ -8,24 +8,24 @@
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:ingots/titanium"
+                "tag": "c:ingots/rhodium_plated_palladium"
             }
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:plates/titanium"
+                "tag": "c:plates/rhodium_plated_palladium"
             }
         }
     ],
     "type": "immersiveengineering:metal_press",
     "energy": 2400,
     "input": {
-        "tag": "c:ingots/titanium"
+        "tag": "c:ingots/rhodium_plated_palladium"
     },
     "mold": "immersiveengineering:mold_plate",
     "result": {
-        "tag": "c:plates/titanium"
+        "tag": "c:plates/rhodium_plated_palladium"
     }
 }

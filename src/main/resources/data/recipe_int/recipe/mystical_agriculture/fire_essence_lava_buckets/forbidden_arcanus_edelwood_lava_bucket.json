@@ -1,0 +1,33 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "mysticalagriculture"
+        },
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "forbiddenarcanus"
+        },
+        {
+            "type": "mysticalagriculture:crop_enabled",
+            "crop": "mysticalagriculture:fire"
+        }
+    ],
+    "type": "crafting_shaped",
+    "pattern": [
+        " E ",
+        "EBE",
+        " E "
+    ],
+    "key": {
+        "E": {
+            "item": "mysticalagriculture:fire_essence"
+        },
+        "B": {
+            "item": "forbiddenarcanus:edelwood_bucket"
+        }
+    },
+    "result": {
+        "id": "forbiddenarcanus:edelwood_lava_bucket"
+    }
+}

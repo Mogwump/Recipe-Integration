@@ -1,0 +1,39 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "oritech"
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:ores/silver"
+            }
+        },
+        {
+            "type": "neoforge:not",
+            "value": {
+                "type": "neoforge:tag_empty",
+                "tag": "c:raw_materials/silver"
+            }
+        }
+    ],
+    "type": "oritech:pulverizer",
+    "fluidInputAmount": 0,
+    "fluidInputVariant": "minecraft:empty",
+    "fluidOutputAmount": 0,
+    "fluidOutputVariant": "minecraft:empty",
+    "ingredients": [
+        {
+            "tag": "c:ores/silver"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "tag": "c:raw_materials/silver"
+        }
+    ],
+    "time": 300
+}

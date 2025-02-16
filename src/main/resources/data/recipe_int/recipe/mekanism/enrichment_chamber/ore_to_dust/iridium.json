@@ -2,30 +2,30 @@
     "neoforge:conditions": [
         {
             "type": "neoforge:mod_loaded",
-            "modid": "immersiveengineering"
+            "modid": "mekanism"
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:ingots/titanium"
+                "tag": "c:dusts/iridium"
             }
         },
         {
             "type": "neoforge:not",
             "value": {
                 "type": "neoforge:tag_empty",
-                "tag": "c:plates/titanium"
+                "tag": "c:ores/iridium"
             }
         }
     ],
-    "type": "immersiveengineering:metal_press",
-    "energy": 2400,
+    "type": "mekanism:enriching",
     "input": {
-        "tag": "c:ingots/titanium"
+        "count": 2,
+        "tag": "c:ores/iridium"
     },
-    "mold": "immersiveengineering:mold_plate",
-    "result": {
-        "tag": "c:plates/titanium"
+    "output": {
+        "count": 2,
+        "tag": "c:dusts/iridium"
     }
 }
