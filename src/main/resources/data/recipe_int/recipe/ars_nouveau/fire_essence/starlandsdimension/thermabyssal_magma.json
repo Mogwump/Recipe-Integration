@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neuforge:mod_loaded",
+            "modid": "ars_nouveau"
+        },
+        {
+            "type": "neuforge:mod_loaded",
+            "modid": "starlandsdimension"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "starlandsdimension:ground"
+        },
+        "B": {
+            "item": "ars_nouveau:fire_essence"
+        }
+    },
+    "result": {
+        "count": 8,
+        "id": "starlandsdimension:star_magma"
+    }
+}

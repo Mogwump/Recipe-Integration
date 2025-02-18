@@ -9,9 +9,11 @@ You may use this software for its intended purpose, as a mod for Minecraft: Java
 You may include the mod in a modpack, as long as the modpack is in a format where the mod is downloaded from the modrinth website.
 You may copy this code and any related files for personal use.
 You may modify this code and any related files, but you must keep the license intact.
-You may contribute directly to the code on the github, which can be found at https://github.com/Mogwump/Recipe-Integration
+You may contribute directly to the code on the github, which can be found at https://github.com/Mogwump/Recipe-Integration. However, doing so will not grant you any ownership or partial ownership over the mod, and thus does not change the terms of this license.
 
 You may not redistribute the compiled mod or its source code without my explicit permission.
+You may not sublicense this software.
+You may not sell this software.
 
 You may only redistribute a derivative copy of this mod if it is either a port to a lower Minecraft version than 1.21, or if it is to a different modloader to Neoforge, such as Forge or Fabric.
 

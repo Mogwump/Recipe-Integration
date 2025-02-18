@@ -1,0 +1,31 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neuforge:mod_loaded",
+            "modid": "ars_nouveau"
+        },
+        {
+            "type": "neuforge:mod_loaded",
+            "modid": "eternal_starlight"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "AAA",
+        "ABA",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "eternal_starlight:cryobysslate"
+        },
+        "B": {
+            "item": "ars_nouveau:fire_essence"
+        }
+    },
+    "result": {
+        "count": 8,
+        "id": "eternal_starlight:cryobyssal_magma_block"
+    }
+}
