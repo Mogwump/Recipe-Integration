@@ -16,8 +16,8 @@ You may not sublicense this software.
 You may not sell this software.
 
 You may only redistribute a derivative copy of this mod if it is either a port to a lower Minecraft version than 1.21, or if it is to a different modloader to Neoforge, such as Forge or Fabric.
-
-You must include this license in any derivative works of this project.
+If you are to redistribute a derivative copy of this mod, you must clearly state that it is such and include a link to the modrinth page.
+You must include this license in any derivative works of this project, clearly stating that it is a derivative work.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
